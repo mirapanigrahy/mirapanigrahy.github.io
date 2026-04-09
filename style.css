@@ -1,17 +1,77 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 40px;
-  background-color: #f7f7f7;
-  color: #333;
-}
-h1 {
-  color: #2c3e50;
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
 }
 
-h2 {
-  margin-top: 30px;
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #111827;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
 }
 
-ul {
-  line-height: 1.6;
+.navbar button {
+  background: #1f2937;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.navbar button:hover {
+  background: #374151;
+}
+
+/* SECTIONS */
+.section {
+  padding: 100px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 140px;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  background: #3b82f6;
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.btn.secondary {
+  background: #334155;
+}
+
+/* PROJECT GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
