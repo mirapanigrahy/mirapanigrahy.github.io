@@ -120,6 +120,29 @@ body {
   color: #e2e8f0;
 }
 
+.card-links {
+  margin-top: 10px;
+}
+
+.card-links a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 6px 12px;
+  background: #3b82f6;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.card-links a:nth-child(2) {
+  background: #334155;
+}
+
+.card-links a:hover {
+  opacity: 0.85;
+}
+
 /* Responsive: Stack categories on mobile */
 @media (max-width: 650px) {
   .category-grid {
