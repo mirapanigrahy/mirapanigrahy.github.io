@@ -179,7 +179,7 @@ img {
 .detail-card img,
 .category-img {
   width: 100% !important;
-  height: 300px;
+  height: 225px;
   object-fit: cover;
   border-radius: 10px;
 }
