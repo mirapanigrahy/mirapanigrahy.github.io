@@ -5,48 +5,67 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <section class="section">
-    <a href="index.html" style="color: #60a5fa; text-decoration: none;">← Back to Home</a>
-    <h2>Hardware & Systems Projects</h2>
-    <div class="detail-stack">
 
-      <div class="detail-card">
-        <img src="images/hdmi.png">
-        <div class="detail-header">
-          <h3>FPGA HDMI Graphics Display (ECE 385)</h3>
-          <a class="github-link" href="#">GitHub</a>
-        </div>
-        <p>Built VGA/HDMI text rendering system using Verilog on FPGA for real-time graphics output.</p>
+<section class="section">
+  <a href="index.html" class="back">← Back to Home</a>
+  <h2>Hardware & Systems Projects</h2>
+
+  <div class="detail-stack">
+
+    <div class="detail-card">
+      <img src="images/hdmi.png">
+      <div class="detail-header">
+        <h3>FPGA HDMI Graphics Display</h3>
+        <a class="github-link" href="#">GitHub</a>
       </div>
-
-      <div class="detail-card">
-        <img src="images/vending.png">
-        <div class="detail-header">
-          <h3>Vending Machine Controller</h3>
-          <a class="github-link" href="#">GitHub</a>
-        </div>
-        <p>Designed ALU + control unit in Vivado and implemented hardware logic on breadboard.</p>
-      </div>
-
-      <div class="detail-card">
-        <img src="images/clapcar.png">
-        <div class="detail-header">
-          <h3>Clap Activated RC Car</h3>
-          <a class="github-link" href="#">GitHub</a>
-        </div>
-        <p>BJT latch + microphone system to control RC car power via audio input.</p>
-      </div>
-
-      <div class="detail-card">
-        <img src="images/radio.png">
-        <div class="detail-header">
-          <h3>AM Radio Receiver</h3>
-          <a class="github-link" href="#">GitHub</a>
-        </div>
-        <p>Built LC band-pass + envelope detector circuit and analyzed frequency response using Fourier methods.</p>
-      </div>
-
+      <ul>
+        <li>Designed a real-time text rendering system using Verilog on FPGA.</li>
+        <li>Implemented VGA/HDMI signal generation and pixel mapping logic.</li>
+        <li>Built hardware pipeline for displaying dynamic text output.</li>
+      </ul>
     </div>
-  </section>
+
+    <div class="detail-card">
+      <img src="images/vending.png">
+      <div class="detail-header">
+        <h3>Vending Machine Controller</h3>
+        <a class="github-link" href="#">GitHub</a>
+      </div>
+      <ul>
+        <li>Designed ALU and control unit using logic gates and flip-flops in Vivado.</li>
+        <li>Implemented system physically on breadboard with sensors and LEDs.</li>
+        <li>Programmed low-level functionality using assembly in Linux environment.</li>
+      </ul>
+    </div>
+
+    <div class="detail-card">
+      <img src="images/clapcar.png">
+      <div class="detail-header">
+        <h3>Clap Activated RC Car</h3>
+        <a class="github-link" href="#">GitHub</a>
+      </div>
+      <ul>
+        <li>Built analog control system using BJT latch and microphone input.</li>
+        <li>Designed amplifier circuit to detect sound signals.</li>
+        <li>Controlled RC car power state based on audio-triggered logic.</li>
+      </ul>
+    </div>
+
+    <div class="detail-card">
+      <img src="images/radio.png">
+      <div class="detail-header">
+        <h3>AM Radio Receiver</h3>
+        <a class="github-link" href="#">GitHub</a>
+      </div>
+      <ul>
+        <li>Designed LC band-pass filter for frequency tuning.</li>
+        <li>Implemented diode envelope detector and RC low-pass filter.</li>
+        <li>Analyzed frequency response using Fourier-based transfer functions.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
 </body>
 </html>

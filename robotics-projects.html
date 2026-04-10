@@ -5,39 +5,54 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <section class="section">
-    <a href="index.html" style="color: #60a5fa; text-decoration: none;">← Back to Home</a>
-    <h2>Robotics Projects</h2>
-    <div class="detail-stack">
 
-      <div class="detail-card">
-        <img src="images/lane.png">
-        <div class="detail-header">
-          <h3>Robotics Lane Segmentation</h3>
-          <a class="github-link" href="#">GitHub</a>
-        </div>
-        <p>CNN-based lane detection system with BEV transformation and real-time camera processing.</p>
+<section class="section">
+  <a href="index.html" class="back">← Back to Home</a>
+  <h2>Robotics Projects</h2>
+
+  <div class="detail-stack">
+
+    <div class="detail-card">
+      <img src="images/lane.png">
+      <div class="detail-header">
+        <h3>Robotics Lane Segmentation</h3>
+        <a class="github-link" href="#">GitHub</a>
       </div>
-
-      <div class="detail-card">
-        <img src="images/swerve.png">
-        <div class="detail-header">
-          <h3>FRC SWERVE Drive</h3>
-          <a class="github-link" href="#">GitHub</a>
-        </div>
-        <p>Designed swerve drive control system with odometry, gyro integration, and motor coordination.</p>
-      </div>
-
-      <div class="detail-card">
-        <img src="images/purepursuit.png">
-        <div class="detail-header">
-          <h3>Pure Pursuit Autonomous Driving</h3>
-          <a class="github-link" href="#">GitHub</a>
-        </div>
-        <p>Implemented path-following algorithm using curvature-based control and PID feedback loops.</p>
-      </div>
-
+      <ul>
+        <li>Developed a CNN-based lane detection system using camera input.</li>
+        <li>Converted images into Bird’s Eye View (BEV) for improved spatial understanding.</li>
+        <li>Implemented real-time image processing pipeline for live camera feeds.</li>
+      </ul>
     </div>
-  </section>
+
+    <div class="detail-card">
+      <img src="images/swerve.png">
+      <div class="detail-header">
+        <h3>FRC Swerve Drive System</h3>
+        <a class="github-link" href="#">GitHub</a>
+      </div>
+      <ul>
+        <li>Designed a full swerve drive control system for a competitive robotics platform.</li>
+        <li>Integrated gyro sensors and encoders to compute real-time odometry.</li>
+        <li>Implemented kinematics for independent wheel steering and motion control.</li>
+      </ul>
+    </div>
+
+    <div class="detail-card">
+      <img src="images/purepursuit.png">
+      <div class="detail-header">
+        <h3>Pure Pursuit Autonomous Driving</h3>
+        <a class="github-link" href="#">GitHub</a>
+      </div>
+      <ul>
+        <li>Implemented the Pure Pursuit path-following algorithm for autonomous navigation.</li>
+        <li>Computed curvature-based control to adjust robot trajectory dynamically.</li>
+        <li>Integrated PID control loops for smooth velocity and steering adjustments.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
 </body>
 </html>

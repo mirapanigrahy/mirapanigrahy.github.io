@@ -5,30 +5,60 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <section class="section">
-    <a href="index.html" style="color: #60a5fa; text-decoration: none;">← Back to Home</a>
-    <h2>Machine Learning Projects</h2>
-    <div class="detail-stack">
 
-      <div class="detail-card">
-        <img src="images/transformer.png">
-        <div class="detail-header">
-          <h3>Transformer Text Segmentation Model</h3>
-          <a class="github-link" href="#">GitHub</a>
-        </div>
-        <p>Built a PyTorch transformer (8 heads, 2 layers) achieving 81% accuracy on Quora Question Pairs dataset.</p>
+<section class="section">
+  <a href="index.html" class="back">← Back to Home</a>
+  <h2>Machine Learning Projects</h2>
+
+  <div class="detail-stack">
+
+    <div class="detail-card">
+      <img src="images/transformer.png">
+      <div class="detail-header">
+        <h3>Transformer Text Segmentation Model</h3>
+        <a class="github-link" href="#">GitHub</a>
       </div>
-
-      <div class="detail-card">
-        <img src="images/llm.png">
-        <div class="detail-header">
-          <h3>LLM Search & Retrieval System</h3>
-          <a class="github-link" href="#">GitHub</a>
-        </div>
-        <p>LangChain + HuggingFace embeddings + Postgres semantic search over YouTube transcripts.</p>
-      </div>
-
+      <ul>
+        <li>Designed and implemented a transformer-based text classification model in PyTorch from scratch (2 layers, 8 attention heads).</li>
+        <li>Trained on 400k+ Quora Question Pairs to detect duplicate questions.</li>
+        <li>Achieved 81% validation accuracy without using pretrained models.</li>
+        <li>Performed ablation studies on attention heads and learning rate, improving performance by ~20%.</li>
+        <li>Documented architecture design, experiments, and results in a technical report.</li>
+      </ul>
     </div>
-  </section>
+
+    <div class="detail-card">
+      <img src="images/llm.png">
+      <div class="detail-header">
+        <h3>LLM Search & Retrieval System</h3>
+        <a class="github-link" href="#">GitHub</a>
+      </div>
+      <ul>
+        <li>Built an open-source system using LangChain to extract and process YouTube transcripts.</li>
+        <li>Used Hugging Face embeddings (all-MiniLM-L6-v2) for semantic text segmentation.</li>
+        <li>Stored embeddings in PostgreSQL for efficient retrieval.</li>
+        <li>Implemented semantic search returning top 10 relevant videos for user queries.</li>
+        <li>Conducted analysis comparing Prompt Engineering, RAG, and Fine-Tuning approaches.</li>
+      </ul>
+    </div>
+
+    <div class="detail-card">
+      <img src="images/research.png">
+      <div class="detail-header">
+        <h3>Gentrification Prediction Model (Research)</h3>
+        <a class="github-link" href="#">GitHub</a>
+      </div>
+      <ul>
+        <li>Developed a machine learning model to predict city-level gentrification.</li>
+        <li>Collected and cleaned data from 200+ U.S. cities (housing, education, income, demographics).</li>
+        <li>Trained logistic regression model using scikit-learn achieving 72% accuracy.</li>
+        <li>Collaborated with a team of students and a mentor in a structured research program.</li>
+        <li>Presented findings at a research symposium.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
 </body>
 </html>
