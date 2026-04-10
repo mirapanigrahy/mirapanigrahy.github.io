@@ -171,10 +171,15 @@ body {
   transform: translateX(-3px);
 }
 
-.detail-card img {
-  width: 100%;
-  height: 160px;        /* controls how tall the image is */
-  object-fit: cover;    /* IMPORTANT: crops instead of stretching */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.detail-card img,
+.category-img {
+  width: 100% !important;
+  height: 150px;
+  object-fit: cover;
   border-radius: 10px;
-  margin-bottom: 10px;
 }
